@@ -278,7 +278,7 @@
         const total = cart.reduce((s, item) => s + (item.price * item.qty), 0);
         const paystack = new PaystackPop();
         paystack.newTransaction({
-            key: 'pk_live_d093f9a81946dbccfbd408b0d1fc270553937ecb',
+            key: 'pk_live_d653074627b5d193c4aac87d74b9f361fefb83b3',
             email: email,
             amount: total * 100,
             onSuccess: (trx) => {
